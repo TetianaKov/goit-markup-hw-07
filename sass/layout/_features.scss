@@ -1,15 +1,12 @@
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .features {
     display: flex;
 }
 
-.features-item:not(:first-child) {
+.features__item:not(:first-child) {
     margin-left: 30px;
 }
-.features-title {
+.features__title {
     color: var(--title-color);
     font-weight: 700;
     font-size: 16px;
@@ -19,26 +16,21 @@
     margin-bottom: 10px;
     margin-top: 30px;
 }
-.features-text {
+.features__text {
     color: var(--text-color);
     line-height: 1.71;
 }
 
-.features-img-link {
-
+.features__link {
     min-height: 120px;
     
     display: flex;
     justify-content: center;
     align-items: center;
-   
     
     background-color: #f5f4f4;
-    
-    
-    
 }
-.features-img-icon {
+.features__icon {
     display: block;
     
     width: 70px;

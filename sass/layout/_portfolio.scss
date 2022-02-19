@@ -5,7 +5,7 @@
     margin-bottom: -30px;
 }
   
-.projects-content {
+.project__content {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -16,27 +16,27 @@
     
 }
 
-.project-item {
+.project__item {
 
    
     margin-left: 30px;
     margin-bottom: 30px;
 }
 
-.project-link {
+.project__link {
     
-
     display: block;
     text-decoration: none;
     flex-basis: calc(100% / 3 - 30px);
 
     transition: box-shadow var(--time-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);    
+    }
 }
-.project-link:hover,
-.project-link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);    
-}
-.project-link-title {
+.project__title {
     color: var(--title-color);
     font-size: 18px;
     font-weight: 700;
@@ -46,18 +46,18 @@
    
 }
 
-.project-link-text {
+.project__text {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.88;
     
 }
 
-.project-thumb {
+.project__thumb {
     position: relative;
     overflow: hidden;
 } 
-.project-action {
+.project__action {
     position: absolute;
     top: 0;
     left: 0;
@@ -82,13 +82,13 @@
     transition: transform var(--time-duration) var(--timing-function);
 }
 
-.project-link:hover .project-action,
-.project-link:focus .project-action {
+.project__link:hover .project__action,
+.project__link:focus .project__action {
     transform: translateY(0);
 
 }
 
-.project-item:focus .project-action {
+.project__item:focus .project__action {
     transform: translateY(0);
 
 }

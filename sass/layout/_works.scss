@@ -2,27 +2,27 @@
     display: flex;
     margin-left: -30px;
 }
-.works-section {
+.works__section {
     padding-top: 0;
 }
-.section-title{
+.section__title{
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
-.works-title {
+.works__title {
     margin-bottom: 50px;
 }
 
-.works-item {
+.works__item {
     position: relative;
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
 }
 
-.works-text {
+.works__text {
     position: absolute;
     content: '';
 
