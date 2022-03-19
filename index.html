@@ -18,21 +18,21 @@
         <div class="container header__container">
             <nav class="navigation">
             <a lang="en" href="" class="logo">Web<span class="logo__studio">Studio</span></a>
-            <ul class="nav-list list">
-                <li class="nav-list__item"><a href="./index.html" class="nav-list__link current">Студия</a></li>
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--current">Студия</a></li>
                 <li class="nav-list__item"><a href="./portfolio.html" class="nav-list__link">Портфолио</a></li>
                 <li class="nav-list__item"><a href="" class="nav-list__link">Контакты</a></li>
             </ul>
             </nav>
-            <ul class="contacts list">
+            <ul class="contacts">
                 <li class="contacts__item">
-                    <a href="mailto:info@devstudio.com" class="contacts__mail">
+                    <a href="mailto:info@devstudio.com" class="contacts__link">
                     <svg class="contacts__mail-icon">
                         <use href="./images/icons.svg#icon-envelope"></use>
                     </svg>
                         <span>info@devstudio.com</span>
                     </a></li>
-                <li class="contacts__item"><a href="tel:+380991111111" class="contacts__tel">
+                <li class="contacts__item"><a href="tel:+380991111111" class="contacts__link">
                     <svg class="contacts__tel-icon">
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg>
@@ -54,7 +54,7 @@
     <section class="section">
         <div class="container">
             <h2 class="visually-hidden">Наши преимущества</h2>            
-            <ul class="features list">
+            <ul class="features">
                 <li class="features__item">
                     <a href="" class="features__link">
                         <svg class="features__icon">
@@ -95,10 +95,10 @@
         </div>
     </section>
      <!-- Наши работы -->
-    <section class="section works__section"> 
+    <section class="section section--without-padding"> 
         <div class="container">
-            <h2 class="section__title works__title">Чем мы занимаемся</h2>
-            <ul class="works list">
+            <h2 class="section__title">Чем мы занимаемся</h2>
+            <ul class="works">
                 <li class="works__item">
                     <img src="./images/pc&tablet.jpg" 
                     alt="планшет и компьютер"
@@ -120,16 +120,16 @@
         </div>
     </section>
     <!-- Команда -->
-    <section class="section section__team"> 
+    <section class="section section--other-background"> 
         <div class="container">
-            <h2 class="section__title team__title">Наша команда</h2>
-            <ul class="team list">
+            <h2 class="section__title">Наша команда</h2>
+            <ul class="team">
                 <li class="team__item">
                     <img src="./images/igor-demyanenko.jpg" alt="дизайнер продукта" width="270" height="260">
                     <div class="team__content">
-                    <h3 class="team__pre-title">Игорь Демьяненко</h3>
+                    <h3 class="team__title">Игорь Демьяненко</h3>
                     <p lang="en" class="team__text">Product Designer</p>
-                    <ul class="socials list">
+                    <ul class="socials">
                         <li class="socials__item">
                             <a href="" class="socials__link">
                                 <svg class="socials__icon" width="20" height="20">
@@ -164,9 +164,9 @@
                 <li class="team__item">
                     <img src="./images/olga-repina.jpg" alt="разработчик" width="270" height="260">
                     <div class="team__content">
-                    <h3 class="team__pre-title">Ольга Репина</h3>
+                    <h3 class="team__title">Ольга Репина</h3>
                     <p lang="en" class="team__text">Frontend Developer</p>
-                    <ul class="socials list">
+                    <ul class="socials">
                         <li class="socials__item">
                             <a href="" class="socials__link">
                                 <svg class="socials__icon" width="20" height="20">
@@ -201,9 +201,9 @@
                 <li class="team__item">
                     <img src="./images/nicolay-tarasov.jpg" alt="маркетолог" width="270" height="260">
                     <div class="team__content">
-                    <h3 class="team__pre-title">Николай Тарасов</h3>
+                    <h3 class="team__title">Николай Тарасов</h3>
                     <p lang="en" class="team__text">Marketing</p>
-                    <ul class="socials list">
+                    <ul class="socials">
                         <li class="socials__item">
                             <a href="" class="socials__link">
                                 <svg class="socials__icon" width="20" height="20">
@@ -238,9 +238,9 @@
                 <li class="team__item">
                     <img src="./images/mihail-ermakov.jpg" alt="дизайнер" width="270" height="260">
                     <div class="team__content">
-                    <h3 class="team__pre-title">Михаил Ермаков</h3>
+                    <h3 class="team__title">Михаил Ермаков</h3>
                     <p lang="en" class="team__text">UI Designer</p>
-                    <ul class="socials list">
+                    <ul class="socials">
                         <li class="socials__item">
                             <a href="" class="socials__link">
                                 <svg class="socials__icon" width="20" height="20">
@@ -277,10 +277,10 @@
         </div>
     </section>
     <!-- Постоянные клиенты -->
-    <section class="section section__clients">
+    <section class="section">
         <div class="container">
-            <h2 class="section__title clients__title">Постоянные клиенты</h2>
-            <ul class="clients list">
+            <h2 class="section__title">Постоянные клиенты</h2>
+            <ul class="clients">
                 <li class="clients__item">
                     <a href="" class="clients__link">
                         <svg class="clients__icons">
@@ -334,7 +334,7 @@
             <div class="footer__adress">
                 <a lang="en" href="" class="logo footer__logo">Web<span class="logo footer__logo-studio">Studio</span> </a>
             <address class="section__adress">
-                <ul class="adress list">
+                <ul class="adress">
                 <li class="adress__item"><a href="https://goo.gl/maps/fiqTfdVGNk1Dg5dy9" target="_blank" 
                     rel="noopener noreferrer nofollow" class="adress__link adress__link-footer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
@@ -347,7 +347,7 @@
 
             <div class="join__container">
                 <p class="join__title">присоединяйтесь</p>
-                    <ul class="join list">
+                    <ul class="join">
                         <li class="join__item">
                             <a href="" class="join__link">
                                 <svg class="join__icon">

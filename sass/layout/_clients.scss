@@ -1,6 +1,4 @@
-.section__title {
-    margin-bottom: 50px;
-}
+
 
 .clients__item:not(:first-child) {
     margin-left: 30px;
@@ -19,6 +17,11 @@
     fill: #AFB1B8;
 
     transition: fill var(--time-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        }
 }
 
 .clients__link {
@@ -37,8 +40,6 @@
     &:hover,
     &:focus {
     border-color: var(--accent-color);
-        .clients__icons {
-            fill: var(--accent-color);
-        }
+    }
     }
 }

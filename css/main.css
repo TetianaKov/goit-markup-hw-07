@@ -44,7 +44,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+ul {
   list-style: none;
 }
 
@@ -59,6 +59,15 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.section__title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .backdrop {
@@ -288,12 +297,11 @@ body {
   margin-left: 50px;
 }
 
-.current {
+.nav-list__link--current {
   color: var(--accent-color);
 }
 
-.contacts__mail,
-.contacts__tel {
+.contacts__link {
   color: inherit;
   font-weight: 500;
   line-height: 1.14;
@@ -305,10 +313,7 @@ body {
   transition: color var(--time-duration) var(--timing-function);
 }
 
-.contacts__mail:hover,
-.contacts__mail:focus,
-.contacts__tel:hover,
-.contacts__tel:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
@@ -498,20 +503,8 @@ body {
   margin-left: -30px;
 }
 
-.works__section {
+.section--without-padding {
   padding-top: 0;
-}
-
-.section__title {
-  color: var(--title-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-.works__title {
-  margin-bottom: 50px;
 }
 
 .works__item {
@@ -537,7 +530,7 @@ body {
   background: #2F303ACC;
 }
 
-.section__team {
+.section--other-background {
   background-color: var(--team-background);
 }
 
@@ -561,21 +554,17 @@ body {
   margin-left: 30px;
 }
 
-.team__title {
-  margin-bottom: 50px;
-}
-
-.team__pre-title,
+.team__title,
 .team__text {
-  color: var(--title-color);
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.19;
   text-align: center;
 }
 
-.team__pre-title {
+.team__title {
   margin-bottom: 10px;
+  color: var(--title-color);
+  font-weight: 500;
 }
 
 .team-text {
@@ -616,10 +605,6 @@ body {
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
   fill: #ffffff;
-}
-
-.section__title {
-  margin-bottom: 50px;
 }
 
 .clients__item:not(:first-child) {

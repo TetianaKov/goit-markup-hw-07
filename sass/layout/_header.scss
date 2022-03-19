@@ -17,12 +17,11 @@
     }
 }
 
-.current {
+.nav-list__link--current {
     color: var(--accent-color);
 }
 
-.contacts__mail,
-.contacts__tel {
+.contacts__link {
     color: inherit;
     font-weight: 500;
     line-height: 1.14;
@@ -35,13 +34,10 @@
 
    
     transition: color var(--time-duration) var(--timing-function);
-}
-    
-.contacts__mail:hover,
-.contacts__mail:focus,
-.contacts__tel:hover,
-.contacts__tel:focus {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
+    }
 }
 
 .contacts__tel-icon,

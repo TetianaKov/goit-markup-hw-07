@@ -2,18 +2,8 @@
     display: flex;
     margin-left: -30px;
 }
-.works__section {
+.section--without-padding {
     padding-top: 0;
-}
-.section__title{
-    color: var(--title-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-.works__title {
-    margin-bottom: 50px;
 }
 
 .works__item {

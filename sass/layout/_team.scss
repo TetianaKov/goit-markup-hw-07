@@ -1,6 +1,7 @@
-.section__team {
+.section--other-background {
     background-color: var(--team-background);
 }
+
 .team {
     display: flex;
 }
@@ -18,20 +19,18 @@
 .team__item:not(:first-child) {
     margin-left: 30px;
 }
-.team__title {
-    margin-bottom: 50px;
-}
-.team__pre-title,
+
+.team__title,
 .team__text {
-    color: var(--title-color);
     font-size: 16px;
-    font-weight: 500;
     line-height: 1.19;
     text-align: center;
 
 }
-.team__pre-title {
+.team__title {
     margin-bottom: 10px;
+    color: var(--title-color);
+    font-weight: 500;
 }
 .team-text {
     color: var(--text-color);
